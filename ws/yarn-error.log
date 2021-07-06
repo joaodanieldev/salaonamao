@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add express mogan
+
+PATH: 
+  /home/dev/.asdf/shims:/home/dev/.asdf/bin:/home/dev/.rvm/gems/ruby-2.4.10/bin:/home/dev/.rvm/gems/ruby-2.4.10@global/bin:/home/dev/.rvm/rubies/ruby-2.4.10/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dev/.rvm/bin:/home/dev/Android/Sdk/emulator:/home/dev/Android/Sdk/tools:/home/dev/Android/Sdk/tools/bin:/home/dev/Android/Sdk/platform-tools:/home/dev/android-studio/bin:/home/dev/development/flutter/bin:/home/dev/development/flutter/bin/cache/dart-sdk/bin:/home/dev/.rvm/bin:/home/dev/Android/Sdk/emulator:/home/dev/Android/Sdk/tools:/home/dev/Android/Sdk/tools/bin:/home/dev/Android/Sdk/platform-tools:/home/dev/android-studio/bin:/home/dev/development/flutter/bin:/home/dev/development/flutter/bin/cache/dart-sdk/bin:/home/dev/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mogan: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "ws",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
